@@ -14,7 +14,7 @@ object Form1: TForm1
     Size.Width = 129.000000000000000000
     Size.Height = 41.000000000000000000
     Size.PlatformDefault = False
-    TabOrder = 0
+    TabOrder = 1
     Text = 'Knop 1'
     OnClick = Button1Click
   end
@@ -28,5 +28,15 @@ object Form1: TForm1
     TextSettings.Font.Size = 16.000000000000000000
     TextSettings.Font.Style = [fsBold]
     Text = '?'
+  end
+  object Button2: TButton
+    Position.X = 152.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'Knop 2'
+    OnClick = Button2Click
   end
 end
